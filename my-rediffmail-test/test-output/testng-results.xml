@@ -1,0 +1,384 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="2" total="7" passed="5">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="292838" started-at="2017-06-02T03:14:34Z" finished-at="2017-06-02T03:19:27Z">
+    <groups>
+    </groups>
+    <test name="firefoxTestCase" duration-ms="223278" started-at="2017-06-02T03:14:34Z" finished-at="2017-06-02T03:18:17Z">
+      <class name="com.apex.rediffmail.login.test.LoginPageTestRediffmail">
+        <test-method status="PASS" signature="browserStartup(java.lang.String)[pri:0, instance:com.apex.rediffmail.login.test.LoginPageTestRediffmail@58651fd0]" name="browserStartup" is-config="true" duration-ms="26330" started-at="2017-06-01T20:14:34Z" finished-at="2017-06-01T20:15:01Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserStartup -->
+        <test-method status="PASS" signature="successfullId(java.lang.String, java.lang.String)[pri:0, instance:com.apex.rediffmail.login.test.LoginPageTestRediffmail@58651fd0]" name="successfullId" duration-ms="16118" started-at="2017-06-01T20:15:01Z" data-provider="testData" finished-at="2017-06-01T20:15:17Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[mike20mac]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Jesus@123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- successfullId -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.apex.rediffmail.login.test.LoginPageTestRediffmail@58651fd0]" name="afterMethod" is-config="true" duration-ms="48" started-at="2017-06-01T20:15:17Z" finished-at="2017-06-01T20:15:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="browserStartup(java.lang.String)[pri:0, instance:com.apex.rediffmail.login.test.LoginPageTestRediffmail@58651fd0]" name="browserStartup" is-config="true" duration-ms="21495" started-at="2017-06-01T20:15:17Z" finished-at="2017-06-01T20:15:38Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserStartup -->
+        <test-method status="PASS" signature="successfullId(java.lang.String, java.lang.String)[pri:0, instance:com.apex.rediffmail.login.test.LoginPageTestRediffmail@58651fd0]" name="successfullId" duration-ms="9321" started-at="2017-06-01T20:15:38Z" data-provider="testData" finished-at="2017-06-01T20:15:48Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[mike20mac]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Jesus@123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- successfullId -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.apex.rediffmail.login.test.LoginPageTestRediffmail@58651fd0]" name="afterMethod" is-config="true" duration-ms="6722" started-at="2017-06-01T20:15:48Z" finished-at="2017-06-01T20:15:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="browserStartup(java.lang.String)[pri:0, instance:com.apex.rediffmail.login.test.LoginPageTestRediffmail@58651fd0]" name="browserStartup" is-config="true" duration-ms="30507" started-at="2017-06-01T20:15:55Z" finished-at="2017-06-01T20:16:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserStartup -->
+        <test-method status="FAIL" signature="loginWithBlankID(java.lang.String, java.lang.String)[pri:0, instance:com.apex.rediffmail.login.test.LoginPageTestRediffmail@58651fd0]" name="loginWithBlankID" duration-ms="7939" started-at="2017-06-01T20:16:25Z" data-provider="testData1" finished-at="2017-06-01T20:16:33Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Jesus@123]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[Unable to locate element: {"method":"xpath","selector":".//*[@id='mail_main_box_cont']/div[2]/div[1]/ul[1]/li/a"}
+Command duration or timeout: 88 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'macwan-PC', ip: '192.168.56.1', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_66'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=46.0, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 04aec06d-86be-46ae-9f8d-488a23f44822
+*** Element info: {Using=xpath, value=.//*[@id='mail_main_box_cont']/div[2]/div[1]/ul[1]/li/a}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: Unable to locate element: {"method":"xpath","selector":".//*[@id='mail_main_box_cont']/div[2]/div[1]/ul[1]/li/a"}
+Command duration or timeout: 88 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'macwan-PC', ip: '192.168.56.1', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_66'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=46.0, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 04aec06d-86be-46ae-9f8d-488a23f44822
+*** Element info: {Using=xpath, value=.//*[@id='mail_main_box_cont']/div[2]/div[1]/ul[1]/li/a}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:500)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy9.getText(Unknown Source)
+	at com.apex.rediffmail.login.page.LoginPageRediffmail.inboxtxt(LoginPageRediffmail.java:86)
+	at com.apex.rediffmail.login.test.LoginPageTestRediffmail.loginWithBlankID(LoginPageTestRediffmail.java:31)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:348)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:343)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:305)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:254)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
+Caused by: org.openqa.selenium.NoSuchElementException: Unable to locate element: {"method":"xpath","selector":".//*[@id='mail_main_box_cont']/div[2]/div[1]/ul[1]/li/a"}
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'macwan-PC', ip: '192.168.56.1', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_66'
+Driver info: driver.version: unknown
+	at <anonymous class>.FirefoxDriver.prototype.findElementInternal_(file:///C:/Users/macwan/AppData/Local/Temp/anonymous8573544696118112190webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:10770)
+	at <anonymous class>.FirefoxDriver.prototype.findElement(file:///C:/Users/macwan/AppData/Local/Temp/anonymous8573544696118112190webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:10779)
+	at <anonymous class>.DelayedCommand.prototype.executeInternal_/h(file:///C:/Users/macwan/AppData/Local/Temp/anonymous8573544696118112190webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12661)
+	at <anonymous class>.DelayedCommand.prototype.executeInternal_(file:///C:/Users/macwan/AppData/Local/Temp/anonymous8573544696118112190webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12666)
+	at <anonymous class>.DelayedCommand.prototype.execute/<(file:///C:/Users/macwan/AppData/Local/Temp/anonymous8573544696118112190webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12608)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginWithBlankID -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.apex.rediffmail.login.test.LoginPageTestRediffmail@58651fd0]" name="afterMethod" is-config="true" duration-ms="108" started-at="2017-06-01T20:16:33Z" finished-at="2017-06-01T20:16:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="browserStartup(java.lang.String)[pri:0, instance:com.apex.rediffmail.login.test.LoginPageTestRediffmail@58651fd0]" name="browserStartup" is-config="true" duration-ms="22216" started-at="2017-06-01T20:16:34Z" finished-at="2017-06-01T20:16:56Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserStartup -->
+        <test-method status="FAIL" signature="loginIwthBlankPassword(java.lang.String, java.lang.String)[pri:0, instance:com.apex.rediffmail.login.test.LoginPageTestRediffmail@58651fd0]" name="loginIwthBlankPassword" duration-ms="8610" started-at="2017-06-01T20:16:56Z" data-provider="testData2" finished-at="2017-06-01T20:17:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[mike20mac]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[Unable to locate element: {"method":"xpath","selector":".//*[@id='mail_main_box_cont']/div[2]/div[1]/ul[1]/li/a"}
+Command duration or timeout: 71 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'macwan-PC', ip: '192.168.56.1', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_66'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=46.0, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: f9e3b32a-9df6-4735-9276-adcef7a6329a
+*** Element info: {Using=xpath, value=.//*[@id='mail_main_box_cont']/div[2]/div[1]/ul[1]/li/a}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: Unable to locate element: {"method":"xpath","selector":".//*[@id='mail_main_box_cont']/div[2]/div[1]/ul[1]/li/a"}
+Command duration or timeout: 71 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'macwan-PC', ip: '192.168.56.1', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_66'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=46.0, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: f9e3b32a-9df6-4735-9276-adcef7a6329a
+*** Element info: {Using=xpath, value=.//*[@id='mail_main_box_cont']/div[2]/div[1]/ul[1]/li/a}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:500)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy9.getText(Unknown Source)
+	at com.apex.rediffmail.login.page.LoginPageRediffmail.inboxtxt(LoginPageRediffmail.java:86)
+	at com.apex.rediffmail.login.test.LoginPageTestRediffmail.loginIwthBlankPassword(LoginPageTestRediffmail.java:42)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:348)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:343)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:305)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:254)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
+Caused by: org.openqa.selenium.NoSuchElementException: Unable to locate element: {"method":"xpath","selector":".//*[@id='mail_main_box_cont']/div[2]/div[1]/ul[1]/li/a"}
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'macwan-PC', ip: '192.168.56.1', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_66'
+Driver info: driver.version: unknown
+	at <anonymous class>.FirefoxDriver.prototype.findElementInternal_(file:///C:/Users/macwan/AppData/Local/Temp/anonymous4108561649107146444webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:10770)
+	at <anonymous class>.FirefoxDriver.prototype.findElement(file:///C:/Users/macwan/AppData/Local/Temp/anonymous4108561649107146444webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:10779)
+	at <anonymous class>.DelayedCommand.prototype.executeInternal_/h(file:///C:/Users/macwan/AppData/Local/Temp/anonymous4108561649107146444webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12661)
+	at <anonymous class>.DelayedCommand.prototype.executeInternal_(file:///C:/Users/macwan/AppData/Local/Temp/anonymous4108561649107146444webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12666)
+	at <anonymous class>.DelayedCommand.prototype.execute/<(file:///C:/Users/macwan/AppData/Local/Temp/anonymous4108561649107146444webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12608)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginIwthBlankPassword -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.apex.rediffmail.login.test.LoginPageTestRediffmail@58651fd0]" name="afterMethod" is-config="true" duration-ms="53" started-at="2017-06-01T20:17:05Z" finished-at="2017-06-01T20:17:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="browserStartup(java.lang.String)[pri:0, instance:com.apex.rediffmail.login.test.LoginPageTestRediffmail@58651fd0]" name="browserStartup" is-config="true" duration-ms="21644" started-at="2017-06-01T20:17:05Z" finished-at="2017-06-01T20:17:26Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserStartup -->
+        <test-method status="PASS" signature="invalidLogin(java.lang.String, java.lang.String)[pri:0, instance:com.apex.rediffmail.login.test.LoginPageTestRediffmail@58651fd0]" name="invalidLogin" duration-ms="10624" started-at="2017-06-01T20:17:26Z" data-provider="testData3" finished-at="2017-06-01T20:17:37Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[mike20mac]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Jesus@124]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidLogin -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.apex.rediffmail.login.test.LoginPageTestRediffmail@58651fd0]" name="afterMethod" is-config="true" duration-ms="55" started-at="2017-06-01T20:17:37Z" finished-at="2017-06-01T20:17:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="browserStartup(java.lang.String)[pri:0, instance:com.apex.rediffmail.login.test.LoginPageTestRediffmail@58651fd0]" name="browserStartup" is-config="true" duration-ms="29807" started-at="2017-06-01T20:17:37Z" finished-at="2017-06-01T20:18:07Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserStartup -->
+        <test-method status="PASS" signature="invalidLogin(java.lang.String, java.lang.String)[pri:0, instance:com.apex.rediffmail.login.test.LoginPageTestRediffmail@58651fd0]" name="invalidLogin" duration-ms="10187" started-at="2017-06-01T20:18:07Z" data-provider="testData3" finished-at="2017-06-01T20:18:17Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[mike20mac1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Jesus@123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidLogin -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.apex.rediffmail.login.test.LoginPageTestRediffmail@58651fd0]" name="afterMethod" is-config="true" duration-ms="38" started-at="2017-06-01T20:18:17Z" finished-at="2017-06-01T20:18:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- com.apex.rediffmail.login.test.LoginPageTestRediffmail -->
+    </test> <!-- firefoxTestCase -->
+    <test name="chromeTestCase" duration-ms="69441" started-at="2017-06-02T03:18:17Z" finished-at="2017-06-02T03:19:27Z">
+      <class name="com.apex.rediffmail.forgotPAssword.test.LoginPageForgotPassTest">
+        <test-method status="PASS" signature="browserStartup(java.lang.String)[pri:0, instance:com.apex.rediffmail.forgotPAssword.test.LoginPageForgotPassTest@59fa1d9b]" name="browserStartup" is-config="true" duration-ms="14034" started-at="2017-06-01T20:18:18Z" finished-at="2017-06-01T20:18:32Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserStartup -->
+        <test-method status="PASS" signature="forgotPassTest(java.lang.String, java.lang.String)[pri:0, instance:com.apex.rediffmail.forgotPAssword.test.LoginPageForgotPassTest@59fa1d9b]" name="forgotPassTest" duration-ms="54766" started-at="2017-06-01T20:18:32Z" data-provider="testData4" finished-at="2017-06-01T20:19:26Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[mike20mac]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[5106745969]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- forgotPassTest -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.apex.rediffmail.forgotPAssword.test.LoginPageForgotPassTest@59fa1d9b]" name="afterMethod" is-config="true" duration-ms="391" started-at="2017-06-01T20:19:26Z" finished-at="2017-06-01T20:19:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- com.apex.rediffmail.forgotPAssword.test.LoginPageForgotPassTest -->
+    </test> <!-- chromeTestCase -->
+  </suite> <!-- Suite -->
+</testng-results>

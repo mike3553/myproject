@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite" parallel="false">
+   
+  <test name="firefoxTestCase">
+		<classes>
+
+			<parameter name="browser" value="firefox"></parameter>
+			<class name="com.apex.rediffmail.login.test.LoginPageTestRediffmail" />
+
+
+		</classes>
+		
+		
+	</test> 
+	<test name="chromeTestCase">
+		<classes>
+
+			<parameter name="browser" value="chrome"></parameter>
+			<class name="com.apex.rediffmail.forgotPAssword.test.LoginPageForgotPassTest" />
+
+
+		</classes>
+		
+		
+	</test> 
+	  
+  
+  
+  <!-- Test -->
+</suite> <!-- Suite -->

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]">
+  <parameter name="browser" value="chrome"/>
+  <test name="firefoxTestCase(failed)">
+    <parameter name="browser" value="firefox"/>
+    <classes>
+      <class name="com.apex.rediffmail.login.test.LoginPageTestRediffmail">
+        <methods>
+          <include name="browserStartup"/>
+          <include name="loginIwthBlankPassword" invocation-numbers="0"/>
+          <include name="afterMethod"/>
+          <include name="loginWithBlankID" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- com.apex.rediffmail.login.test.LoginPageTestRediffmail -->
+      <class name="com.apex.rediffmail.forgotPAssword.test.LoginPageForgotPassTest">
+        <methods>
+          <include name="browserStartup"/>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- com.apex.rediffmail.forgotPAssword.test.LoginPageForgotPassTest -->
+    </classes>
+  </test> <!-- firefoxTestCase(failed) -->
+</suite> <!-- Failed suite [Suite] -->
