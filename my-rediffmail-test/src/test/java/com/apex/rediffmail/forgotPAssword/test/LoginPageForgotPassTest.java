@@ -10,7 +10,7 @@ import com.apex.rediffmail.forgotPAssword.page.LoginPageForgotPass;
 
 public class LoginPageForgotPassTest extends RediffBaseTest {
 	
-	//hey lol
+	//hey lol wssup
 	@Test(dataProvider = "testData4",dataProviderClass=dataProvider.class)
 	public void forgotPassTest(String UserID, String Phone) throws InterruptedException {
 
