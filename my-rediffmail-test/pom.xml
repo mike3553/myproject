@@ -6,7 +6,16 @@
   <name>my-rediffmail-test</name>
   <description>rediffmail test</description>
   
+  
   <dependencies>
+  
+  <!-- https://mvnrepository.com/artifact/info.cukes/cucumber-java -->
+<dependency>
+    <groupId>info.cukes</groupId>
+    <artifactId>cucumber-java</artifactId>
+    <version>1.2.5</version>
+</dependency>
+  
 		<!-- https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-java -->
 		<dependency>
 			<groupId>org.seleniumhq.selenium</groupId>
